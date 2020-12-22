@@ -28,6 +28,11 @@
   color: #61dafb;
 }
 
+.header{
+background-color: #282c34;
+text-transform: capitalize;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
