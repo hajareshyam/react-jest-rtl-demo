@@ -1,9 +1,15 @@
+// import Login from "./components/Auth/Login/Login";
+import classes from './App.module.css'
+import Blogs from "./components/Blogs/Blogs";
+import { LoginForm } from "./components/Auth/LoginForm/LoginForm";
 
-import Welcome from './components/welcome/welcome'
 function App() {
   return (
-    <div>
-      <Welcome></Welcome>
+    <div className="container">
+      <br></br>
+      {/* <Login /> */}
+      <LoginForm />
+      {/* <Blogs /> */}
     </div>
   );
 }
